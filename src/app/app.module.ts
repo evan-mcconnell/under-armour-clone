@@ -8,6 +8,7 @@ import { MainComponent } from './main/main.component';
 import { SplashBannerComponent } from './splash-banner/splash-banner.component';
 import { ButtonBannerComponent } from './button-banner/button-banner.component';
 import { ButtonComponent } from './button/button.component';
+import { ImageBannerComponent } from './image-banner/image-banner.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ButtonComponent } from './button/button.component';
     MainComponent,
     SplashBannerComponent,
     ButtonBannerComponent,
-    ButtonComponent
+    ButtonComponent,
+    ImageBannerComponent
   ],
   imports: [
     BrowserModule

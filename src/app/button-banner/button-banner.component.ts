@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { MainComponent } from '../main/main.component'
-import { ButtonBanner } from '../main/btnBanner.model';
+import { ButtonBanner } from '../models/btnBanner.model';
 
 
 @Component({
@@ -13,7 +13,7 @@ export class ButtonBannerComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log("button banner init", this.data.name);
+    console.log("button banner init: ", this.data.name);
   }
 
 }

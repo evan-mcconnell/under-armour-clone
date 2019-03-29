@@ -1,0 +1,17 @@
+a {
+  padding: 7px 11px;
+  margin: 0 5px;
+  border: 2px solid black;
+  height: 15px;
+  width: auto;
+  color: black;
+  font-size: 1.1em;
+  text-decoration: none;
+  background-color: white;
+  transition: color 0.2s, background-color 0.5s, text-decoration 0.4s;
+  &:hover {
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+  }
+}

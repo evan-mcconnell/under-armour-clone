@@ -1,3 +1,3 @@
-<h2>{{data.name}}</h2>
+<h2>{{data.name | uppercase}}</h2>
 <h6>{{data.sub}}</h6>
-<!-- <button *ngFor(let button of data.buttons)>{{button}}</button> -->
+<app-button *ngFor="let button of data.buttons" [buttonName]="button"></app-button>
