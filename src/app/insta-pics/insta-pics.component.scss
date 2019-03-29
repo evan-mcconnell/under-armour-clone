@@ -1,4 +1,21 @@
 
-#insta img {
+#insta {
+  position: relative;
+  img {
+    width: 100%;
+  }
+}
+
+.handle {
+  background-color: transparentize(black, 0.8);
+  color: white;
+  opacity: 0.5;
+  position: absolute;
+  line-height: 0.2em;
   width: 100%;
+  left: 50%;
+  bottom: 0;
+  transform:translate(-50%,-10%);
+  font-weight: bold;
+  font-size: 0.8em;
 }

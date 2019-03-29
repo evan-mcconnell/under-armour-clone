@@ -174,7 +174,7 @@ export const instaData = [
     ]
   },
   {
-    image: "../assets/insta2.jpg",
+    image: "../assets/insta9.jpg",
     handle: "@UNDERARMOR",
     message: "Greatness can't be contained. From the studio to the gym, do it all in the new #MistySignature collection. Shop it 2/25. #WEWILL",
     shopLinks: [
