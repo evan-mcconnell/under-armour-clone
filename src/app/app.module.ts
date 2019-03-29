@@ -9,6 +9,7 @@ import { SplashBannerComponent } from './splash-banner/splash-banner.component';
 import { ButtonBannerComponent } from './button-banner/button-banner.component';
 import { ButtonComponent } from './button/button.component';
 import { ImageBannerComponent } from './image-banner/image-banner.component';
+import { TopBannerComponent } from './top-banner/top-banner.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ImageBannerComponent } from './image-banner/image-banner.component';
     SplashBannerComponent,
     ButtonBannerComponent,
     ButtonComponent,
-    ImageBannerComponent
+    ImageBannerComponent,
+    TopBannerComponent
   ],
   imports: [
     BrowserModule
