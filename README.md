@@ -7,8 +7,8 @@ _Author_ **Kim McConnell**
 
 1. [Description](#description)
 1. [Learning Objective](#learning-objective)
-1. [Target Audience/Users](#target-audience/users)
 1. [Product Requirements](#product-requirements)
+1. [Planning](#planning)
 1. [Development Specs](#development-specs)
 1. [Stretch Goals](#stretch-goals)
 1. [Installation](#installation)
@@ -17,35 +17,38 @@ _Author_ **Kim McConnell**
 1. [License](#license)
 
 ### Description
-
+A clone of the Under Armor website using the Angular framework and sass for styling.
 
 ### Learning Objective
+To practice using Angular and to get used to using components to plan and style a UI.
 
-
-### Target Audience/Users
-*
 
 ### Product Requirements
-*
+* The clone site must look and function the same way as the original site.
+* Angular implemented with the MVC model (where C = component)
+* Data is passed down to child components
+* Actions are passed up to parent components
+
+## Planning
+Below is the core plan for the project. Each box represents a component. Components may be repeated multiple times, as necessary.
+![Component Plan](./src/assets/plan.jpg)
 
 ### Development Specs
 
 Specification | Input | Output
 ------------- | ----- | ------
-User can enter search term of injury/illness and get doctor list  | "Diabetes" | API call to BetterDoctor
-
-
-
-
 
 
 ### Stretch Goals
-*
+* Add multi-page functionality
+* Use a product API to get placeholder data for products
+
 
 ### Installation
-* Clone from https://github.com/kimmcconnell/under-armor-clone.git
-* Run `$ npm install`
-*
+* Clone from https://github.com/kimmcconnell/under-armor-clone.git either directly from GitHub or running `git clone https://github.com/kimmcconnell/under-armor-clone.git` in your terminal
+* Run `$ npm install` in your terminal after navigating to the under-armor-clone directory
+* If you do not have the angular CLI package already installed on your computer, run `npm install -g @angular/cli@1.6.5`
+* Run `ng serve --open` to open the project in a browser window
 
 
 ### Known Bugs
