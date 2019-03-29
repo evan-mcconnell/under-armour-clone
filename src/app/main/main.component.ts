@@ -19,4 +19,5 @@ export class MainComponent implements OnInit {
     console.log("button banners: ", this.buttonBanners);
     console.log("image banners: ", this.imgBanners);
   }
+  
 }

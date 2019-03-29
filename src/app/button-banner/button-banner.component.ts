@@ -11,25 +11,23 @@ import { ButtonBanner } from '../models/btnBanner.model';
 export class ButtonBannerComponent implements OnInit {
   public isMobileResolution: boolean;
   @Input() data: ButtonBanner;
+  @Input() id: number;
   constructor() {
-  if (window.innerWidth < 768) {
-    this.isMobileResolution = true;
-  } else {
-    this.isMobileResolution = false;
   }
-}
 
   ngOnInit() {
     console.log("button banner init: ", this.data.name);
+    console.log("banner id: ", this.id);
   }
 
   @HostListener('window:resize') onResize(event) {
-    if (window.innerWidth < 768) {
+    this.getIsMobile();
+  }
+  getIsMobile() {
+    if (this.id === 0 && window.innerWidth < 768) {
       this.isMobileResolution = true;
     } else {
       this.isMobileResolution = false;
     }
-
   }
-
 }
