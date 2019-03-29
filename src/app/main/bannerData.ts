@@ -27,11 +27,17 @@ export const imgBannerData = [
   {
     image: "../assets/imgBanner1.jpg",
     caption: "UA Vanish",
-    sub: "The lighter you feel, the harder you train."
+    sub: "The lighter you feel, the harder you train.",
+    buttons: [
+      "Shop"
+    ]
   },
   {
     image: "../assets/imgBanner2.jpg",
     caption: "UA Favorite collection",
-    sub: "Crazy comfortable but still came to work."
+    sub: "Crazy comfortable but still came to work.",
+    buttons: [
+      "Shop"
+    ]
   }
 ]

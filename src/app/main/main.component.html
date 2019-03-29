@@ -3,4 +3,6 @@
 
 <app-button-banner *ngFor="let buttonbanner of buttonBanners" [data]="buttonbanner"></app-button-banner>
 
-<app-image-banner *ngFor="let imgbanner of imgBanners" [imgData]="imgbanner"></app-image-banner>
+<div class="imgBanners">
+  <app-image-banner *ngFor="let imgbanner of imgBanners" [imgData]="imgbanner"></app-image-banner>
+</div>

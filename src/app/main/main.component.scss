@@ -1,0 +1,12 @@
+@import '../../scss/mixins';
+
+app-button-banner {
+  margin: 1px;
+}
+.imgBanners {
+  margin: 1px;
+  @include tablet {
+    display: flex;
+    flex-direction: row;
+  }
+}
