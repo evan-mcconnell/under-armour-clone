@@ -1,5 +1,78 @@
 # UnderArmorClone
 
+#### Angular project for Epicodus
+
+_Published_ **March 29 2019**< br>
+_Author_ **Kim McConnell**
+
+1. [Description](#description)
+1. [Learning Objective](#learning-objective)
+1. [Target Audience/Users](#target-audience/users)
+1. [Product Requirements](#product-requirements)
+1. [Development Specs](#development-specs)
+1. [Stretch Goals](#stretch-goals)
+1. [Installation](#installation)
+1. [Known Bugs](#known-bugs)
+1. [Technologies Used](#technologies-used)
+1. [License](#license)
+
+### Description
+
+
+### Learning Objective
+
+
+### Target Audience/Users
+*
+
+### Product Requirements
+*
+
+### Development Specs
+
+Specification | Input | Output
+------------- | ----- | ------
+User can enter search term of injury/illness and get doctor list  | "Diabetes" | API call to BetterDoctor
+
+
+
+
+
+
+### Stretch Goals
+*
+
+### Installation
+* Clone from https://github.com/kimmcconnell/under-armor-clone.git
+* Run `$ npm install`
+*
+
+
+### Known Bugs
+* None identified
+
+### Technologies Used
+* Angular framework with Typescript
+* Sass with variables and mixins
+
+### License
+[MIT](./LICENSE.txt)
+
+Copyright (c) Kim McConnell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
 ## Development server
