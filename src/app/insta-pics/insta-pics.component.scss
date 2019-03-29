@@ -3,6 +3,9 @@
   position: relative;
   img {
     width: 100%;
+    &:hover {
+      cursor: url('../../assets/mag.png') 2 4, auto;
+    }
   }
 }
 
