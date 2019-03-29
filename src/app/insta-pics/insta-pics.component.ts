@@ -13,6 +13,5 @@ export class InstaPicsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log("instaID", this.id);
   }
 }

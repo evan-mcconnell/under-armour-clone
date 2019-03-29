@@ -11,6 +11,7 @@ import { ButtonComponent } from './button/button.component';
 import { ImageBannerComponent } from './image-banner/image-banner.component';
 import { ExploreComponent } from './explore/explore.component';
 import { InstaPicsComponent } from './insta-pics/insta-pics.component';
+import { NavComponent } from './nav/nav.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { InstaPicsComponent } from './insta-pics/insta-pics.component';
     ImageBannerComponent,
     ExploreComponent,
     InstaPicsComponent,
+    NavComponent,
   ],
   imports: [
     BrowserModule
