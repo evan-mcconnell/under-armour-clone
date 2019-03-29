@@ -10,6 +10,7 @@ import { ButtonBannerComponent } from './button-banner/button-banner.component';
 import { ButtonComponent } from './button/button.component';
 import { ImageBannerComponent } from './image-banner/image-banner.component';
 import { ExploreComponent } from './explore/explore.component';
+import { InstaPicsComponent } from './insta-pics/insta-pics.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { ExploreComponent } from './explore/explore.component';
     ButtonComponent,
     ImageBannerComponent,
     ExploreComponent,
+    InstaPicsComponent,
   ],
   imports: [
     BrowserModule

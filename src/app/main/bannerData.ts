@@ -59,3 +59,129 @@ export const exploreData = [
     link: "#"
   }
 ]
+
+export const instaData = [
+  {
+    image: "../assets/insta1.jpg",
+    handle: "@UNDERARMOR",
+    message: "Greatness can't be contained. From the studio to the gym, do it all in the new #MistySignature collection. Shop it 2/25. #WEWILL",
+    shopLinks: [
+      {
+        thumb: "../assets/product1.jpg",
+        link: "#"
+      },
+      {
+        thumb: "../assets/product2.jpg",
+        link: "#"
+      },
+      {
+        thumb: "../assets/product3.jpg",
+        link: "#"
+      }
+    ]
+  },
+  {
+    image: "../assets/insta2.jpg",
+    handle: "@UNDERARMOR",
+    message: "Greatness can't be contained. From the studio to the gym, do it all in the new #MistySignature collection. Shop it 2/25. #WEWILL",
+    shopLinks: [
+      {
+        thumb: "../assets/product1.jpg",
+        link: "#"
+      }
+    ]
+  },
+  {
+    image: "../assets/insta2.jpg",
+    handle: "@UNDERARMOR",
+    message: "Greatness can't be contained. From the studio to the gym, do it all in the new #MistySignature collection. Shop it 2/25. #WEWILL",
+    shopLinks: [
+      {
+        thumb: "../assets/product1.jpg",
+        link: "#"
+      }
+    ]
+  },
+  {
+    image: "../assets/insta2.jpg",
+    handle: "@UNDERARMOR",
+    message: "Greatness can't be contained. From the studio to the gym, do it all in the new #MistySignature collection. Shop it 2/25. #WEWILL",
+    shopLinks: [
+      {
+        thumb: "../assets/product1.jpg",
+        link: "#"
+      },
+      {
+        thumb: "../assets/product2.jpg",
+        link: "#"
+      },
+      {
+        thumb: "../assets/product3.jpg",
+        link: "#"
+      }
+    ]
+  },
+  {
+    image: "../assets/insta2.jpg",
+    handle: "@UNDERARMOR",
+    message: "Greatness can't be contained. From the studio to the gym, do it all in the new #MistySignature collection. Shop it 2/25. #WEWILL",
+    shopLinks: [
+      {
+        thumb: "../assets/product1.jpg",
+        link: "#"
+      }
+    ]
+  },
+  {
+    image: "../assets/insta2.jpg",
+    handle: "@UNDERARMOR",
+    message: "Greatness can't be contained. From the studio to the gym, do it all in the new #MistySignature collection. Shop it 2/25. #WEWILL",
+    shopLinks: [
+      {
+        thumb: "../assets/product1.jpg",
+        link: "#"
+      },
+      {
+        thumb: "../assets/product2.jpg",
+        link: "#"
+      },
+      {
+        thumb: "../assets/product3.jpg",
+        link: "#"
+      }
+    ]
+  },
+  {
+    image: "../assets/insta2.jpg",
+    handle: "@UNDERARMOR",
+    message: "Greatness can't be contained. From the studio to the gym, do it all in the new #MistySignature collection. Shop it 2/25. #WEWILL",
+    shopLinks: [
+      {
+        thumb: "../assets/product1.jpg",
+        link: "#"
+      }
+    ]
+  },
+  {
+    image: "../assets/insta2.jpg",
+    handle: "@UNDERARMOR",
+    message: "Greatness can't be contained. From the studio to the gym, do it all in the new #MistySignature collection. Shop it 2/25. #WEWILL",
+    shopLinks: [
+      {
+        thumb: "../assets/product1.jpg",
+        link: "#"
+      }
+    ]
+  },
+  {
+    image: "../assets/insta2.jpg",
+    handle: "@UNDERARMOR",
+    message: "Greatness can't be contained. From the studio to the gym, do it all in the new #MistySignature collection. Shop it 2/25. #WEWILL",
+    shopLinks: [
+      {
+        thumb: "../assets/product1.jpg",
+        link: "#"
+      }
+    ]
+  }
+]

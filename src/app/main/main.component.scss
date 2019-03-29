@@ -21,3 +21,11 @@ app-button-banner {
   align-items: center;
   padding: 2vw;
 }
+
+.insta-pics {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 5px;
+  grid-auto-flow: row;
+}

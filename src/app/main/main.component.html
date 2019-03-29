@@ -9,3 +9,10 @@
 <div class="explore">
   <app-explore *ngFor="let explore of explores" [exploreData]="explore"></app-explore>
 </div>
+
+<div class="instagram-section">
+  <h3>SHOP OUR INSTAGRAM</h3>
+  <div class="insta-pics">
+    <app-insta-pics *ngFor="let insta of instaPics; let i = index" [instaData]="insta" [id]="i"></app-insta-pics>
+  </div>
+</div>
