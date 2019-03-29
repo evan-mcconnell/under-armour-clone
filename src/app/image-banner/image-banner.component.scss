@@ -1,0 +1,9 @@
+
+@import '../../scss/mixins';
+
+img{
+  width: 100%;
+  @include tablet {
+    width: 50%;
+  }
+}
