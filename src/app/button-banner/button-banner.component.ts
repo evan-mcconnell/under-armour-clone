@@ -9,7 +9,7 @@ import { ButtonBanner } from '../models/btnBanner.model';
   styleUrls: ['./button-banner.component.scss']
 })
 export class ButtonBannerComponent implements OnInit {
-  public isMobileResolution: boolean;
+  public isMobileResolution: boolean = false;
   @Input() data: ButtonBanner;
   @Input() id: number;
   constructor() {
