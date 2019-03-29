@@ -1,6 +1,17 @@
 
 
+
 .drop-down {
   display: flex;
   flex-direction: row;
+}
+
+.leftLinks {
+  width: 20%;
+}
+
+.mainlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

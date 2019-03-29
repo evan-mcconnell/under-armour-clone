@@ -9,12 +9,20 @@ import { Nav } from '../models/nav.model'
 export class NavComponent implements OnInit {
  @Input() navData: Nav;
  @Input() id: number;
+ public isHovering: boolean = false;
   constructor() { }
 
   ngOnInit() {
     console.log("nav init", this.navData)
   }
-  getLeftLinks() {
-    return this.navData.leftLinks[id].link;
+  //this will get links from the data file (or database) eventually
+  // getLeftLinks() {
+  //   return this.navData.leftLinks[id].link;
+  // }
+  mouseHovering() {
+    this.isHovering = true;
+  }
+  mouseLeft() {
+    this.isHovering = false;
   }
 }
