@@ -1,9 +1,14 @@
 
 
+.nav-container {
+  position: relative;
+}
 
 .drop-down {
   display: flex;
   flex-direction: row;
+  position: absolute;
+  background-color: white;
 }
 
 .leftLinks {
