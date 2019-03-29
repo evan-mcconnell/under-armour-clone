@@ -9,7 +9,7 @@ import { ButtonBanner } from '../models/btnBanner.model';
   styleUrls: ['./button-banner.component.scss']
 })
 export class ButtonBannerComponent implements OnInit {
-  public isMobileResolution: boolean = false;
+  public isMobileResolution: boolean = true;
   @Input() data: ButtonBanner;
   @Input() id: number;
   constructor() {
@@ -18,13 +18,14 @@ export class ButtonBannerComponent implements OnInit {
   ngOnInit() {
     console.log("button banner init: ", this.data.name);
     console.log("banner id: ", this.id);
+    this.getIsMobile();
   }
 
   @HostListener('window:resize') onResize(event) {
     this.getIsMobile();
   }
   getIsMobile() {
-    if (this.id === 0 && window.innerWidth < 768) {
+    if (this.id === 0 && window.innerWidth > 985) {
       this.isMobileResolution = true;
     } else {
       this.isMobileResolution = false;

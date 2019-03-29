@@ -1,7 +1,9 @@
 
 
 <div class="splash">
-  <div class="heading">
-    <app-button></app-button>
+  <div class="heading" *ngIf="isMobile">
+    <h2>{{topBannerData.name | uppercase}}</h2>
+    <h6>{{topBannerData.sub}}</h6>
+    <app-button [buttonName]="topBannerData.buttons[0]"></app-button>
   </div>
 </div>

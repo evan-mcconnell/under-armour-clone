@@ -1,4 +1,4 @@
-<app-splash-banner></app-splash-banner>
+<app-splash-banner [topBannerData]="buttonBanners[0]"></app-splash-banner>
 
 <app-button-banner *ngFor="let buttonbanner of buttonBanners;  let i = index" [data]="buttonbanner" [id]="i"></app-button-banner>
 
