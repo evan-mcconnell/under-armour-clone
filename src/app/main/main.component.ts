@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { buttonBannerData } from './bannerData';
-import { buttonBanner } from './btnBanner.model';
+import { ButtonBanner } from './btnBanner.model';
 
 @Component({
   selector: 'app-main',
@@ -8,10 +8,11 @@ import { buttonBanner } from './btnBanner.model';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent implements OnInit {
-  public buttonBanner: any;
-  public buttonBanners: buttonBanner[] = buttonBannerData;
+  public ButtonBanner: any;
+  public buttonBanners: ButtonBanner[] = buttonBannerData;
   constructor() {
   }
   ngOnInit() {
+    console.log(this.buttonBanners);
   }
 }

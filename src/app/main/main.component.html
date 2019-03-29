@@ -1,4 +1,4 @@
 <app-splash-banner></app-splash-banner>
 
 
-<app-button-banner></app-button-banner>
+<app-button-banner *ngFor="let banner of buttonBanners" [data]="banner"></app-button-banner>

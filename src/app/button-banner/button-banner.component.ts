@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { MainComponent } from '../main/main.component'
+import { ButtonBanner } from '../main/btnBanner.model';
+
 
 @Component({
   selector: 'app-button-banner',
@@ -7,12 +9,11 @@ import { MainComponent } from '../main/main.component'
   styleUrls: ['./button-banner.component.scss']
 })
 export class ButtonBannerComponent implements OnInit {
-
+  @Input() data: ButtonBanner;
   constructor() { }
 
   ngOnInit() {
-    // console.log("button banner init", this.bannerData);
-    // console.log("button banner init", this.buttonBanner);
+    console.log("button banner init", this.data.name);
   }
 
 }
