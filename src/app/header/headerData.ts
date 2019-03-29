@@ -88,6 +88,170 @@ export const navData = [
             link: "#"
           }
         ]
+      },
+      {
+        categoryTitle: "tops",
+        subCategories: [
+          {
+            subTitle: "Basketball",
+            link: "#"
+          },
+          {
+            subTitle: "Boots",
+            link: "#"
+          },
+          {
+            subTitle: "Cleats & Spikes",
+            link: "#"
+          },
+          {
+            subTitle: "Custom",
+            link: "#"
+          },
+          {
+            subTitle: "Hiking & Trail",
+            link: "#"
+          },
+          {
+            subTitle: "Running",
+            link: "#"
+          },
+          {
+            subTitle: "Slides & Sandals",
+            link: "#"
+          },
+          {
+            subTitle: "Sportstyle",
+            link: "#"
+          },
+          {
+            subTitle: "Training",
+            link: "#"
+          }
+        ]
+      },
+      {
+        categoryTitle: "bottoms",
+        subCategories: [
+          {
+            subTitle: "Basketball",
+            link: "#"
+          },
+          {
+            subTitle: "Boots",
+            link: "#"
+          },
+          {
+            subTitle: "Cleats & Spikes",
+            link: "#"
+          },
+          {
+            subTitle: "Custom",
+            link: "#"
+          },
+          {
+            subTitle: "Hiking & Trail",
+            link: "#"
+          },
+          {
+            subTitle: "Running",
+            link: "#"
+          },
+          {
+            subTitle: "Slides & Sandals",
+            link: "#"
+          },
+          {
+            subTitle: "Sportstyle",
+            link: "#"
+          },
+          {
+            subTitle: "Training",
+            link: "#"
+          }
+        ]
+      },
+      {
+        categoryTitle: "accessories",
+        subCategories: [
+          {
+            subTitle: "Basketball",
+            link: "#"
+          },
+          {
+            subTitle: "Boots",
+            link: "#"
+          },
+          {
+            subTitle: "Cleats & Spikes",
+            link: "#"
+          },
+          {
+            subTitle: "Custom",
+            link: "#"
+          },
+          {
+            subTitle: "Hiking & Trail",
+            link: "#"
+          },
+          {
+            subTitle: "Running",
+            link: "#"
+          },
+          {
+            subTitle: "Slides & Sandals",
+            link: "#"
+          },
+          {
+            subTitle: "Sportstyle",
+            link: "#"
+          },
+          {
+            subTitle: "Training",
+            link: "#"
+          }
+        ]
+      },
+      {
+        categoryTitle: "all men's sports",
+        subCategories: [
+          {
+            subTitle: "Basketball",
+            link: "#"
+          },
+          {
+            subTitle: "Boots",
+            link: "#"
+          },
+          {
+            subTitle: "Cleats & Spikes",
+            link: "#"
+          },
+          {
+            subTitle: "Custom",
+            link: "#"
+          },
+          {
+            subTitle: "Hiking & Trail",
+            link: "#"
+          },
+          {
+            subTitle: "Running",
+            link: "#"
+          },
+          {
+            subTitle: "Slides & Sandals",
+            link: "#"
+          },
+          {
+            subTitle: "Sportstyle",
+            link: "#"
+          },
+          {
+            subTitle: "Training",
+            link: "#"
+          }
+        ]
       }
     ]
   }

@@ -1,3 +1,9 @@
-<p>
-  nav works!
-</p>
+
+<h3>{{navData.title}}</h3>
+<div class="drop-down">
+  <div class="leftLinks">
+    <a *ngFor="let link of navData.leftLinks" href="getLeftLink()">{{link.linkName}}</a>
+  </div>
+  <div class="mainLinks" *ngFor="let category of navData.categories">{{category.categoryTitle |    uppercase}}
+  </div>
+</div>
