@@ -13,10 +13,6 @@ export class InstaPicsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  }
-  getSize() {
-    if (this.id === 0 || this.id === 8) {
-      return "large";
-    }
+    console.log("instaID", this.id);
   }
 }

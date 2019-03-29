@@ -24,6 +24,6 @@ export class MainComponent implements OnInit {
     console.log("image banners: ", this.imgBanners);
     console.log("explore links: ", this.explores);
     console.log("instagrams: ", this.instaPics);
-  }
 
+  }
 }
