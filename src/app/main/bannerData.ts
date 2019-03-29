@@ -41,3 +41,21 @@ export const imgBannerData = [
     ]
   }
 ]
+
+export const exploreData = [
+  {
+    image: "../assets/explore1.jpg",
+    sub: "Athlete Recovery",
+    link: "#"
+  },
+  {
+    image: "../assets/explore2.jpg",
+    sub: "Gear Handpicked For Your Goals",
+    link: "#"
+  },
+  {
+    image: "../assets/explore3.jpg",
+    sub: "UA Icon Customized Gear",
+    link: "#"
+  }
+]

@@ -10,3 +10,14 @@ app-button-banner {
     flex-direction: row;
   }
 }
+
+.explore {
+  margin-top: 20px;
+  background-color: $lightgrey;
+  height: 25vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw;
+}

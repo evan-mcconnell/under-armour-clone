@@ -1,6 +1,6 @@
 
 <div *ngIf="!isMobileResolution">
-  <h2>{{data.name | uppercase}}</h2>
+  <h1>{{data.name | uppercase}}</h1>
   <h6>{{data.sub}}</h6>
   <div class="buttons">
     <app-button *ngFor="let button of data.buttons" [buttonName]="button"></app-button>

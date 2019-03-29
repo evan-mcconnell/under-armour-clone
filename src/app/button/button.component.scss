@@ -2,7 +2,7 @@
 
 a {
   padding: 7px 8px;
-  margin: 1px 4px;
+  margin: 5px 4px;
   border: 2px solid black;
   height: 15px;
   width: auto;
@@ -14,7 +14,7 @@ a {
   transition: color 0.2s, background-color 0.5s, text-decoration 0.4s;
   @include tablet {
     height: 15px;
-    margin: 2px 5px;
+    margin: 5px 5px;
   }
   &:hover {
     color: white;
