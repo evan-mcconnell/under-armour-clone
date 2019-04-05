@@ -2,14 +2,14 @@
 
 #### Angular project for Epicodus
 
-_Published_ **March 29 2019**< br>
+_Published_ **March 29 2019** <br>
 _Author_ **Kim McConnell**
 
 1. [Description](#description)
 1. [Learning Objective](#learning-objective)
 1. [Product Requirements](#product-requirements)
 1. [Planning](#planning)
-1. [Development Specs](#development-specs)
+1. [Completed Features](#completed-features)
 1. [Stretch Goals](#stretch-goals)
 1. [Installation](#installation)
 1. [Known Bugs](#known-bugs)
@@ -33,10 +33,23 @@ To practice using Angular and to get used to using components to plan and style 
 Below is the core plan for the project. Each box represents a component. Components may be repeated multiple times, as necessary.
 ![Component Plan](./src/assets/plan.jpg)
 
-### Development Specs
+### Completed Features
 
-Specification | Input | Output
-------------- | ----- | ------
+As of March 29, 2019:
+# 9 separate components with functionality
+# A main page that displays the content of the components
+# A data file to hold the text data
+# Property binding to pass data to child components
+# Models for various sets of data
+# Some responsive layout features, including an image grid and a HostListener for listening for window resizing
+
+Next Steps:
+# Multi-page functionality with an angular router
+# Moving some of the data to a firebase database
+# Nav drop down functionality (currently works to drop down, but unstyled)
+# Other elements in header
+# footer component, content and styling
+# Deployment to Firebase
 
 
 ### Stretch Goals
