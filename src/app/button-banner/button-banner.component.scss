@@ -5,3 +5,17 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+.button-banner {
+  padding: 10px 0 20px 0;
+  background-color: $lightgrey;
+  @include tablet-large {
+    border-top:  1px solid darkgrey;
+  }
+  @include tablet-landscape {
+    background-color: white;
+  }
+}
+
+.first-banner {
+  background-color: white;
+}

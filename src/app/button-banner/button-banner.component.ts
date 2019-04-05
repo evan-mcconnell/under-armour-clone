@@ -17,7 +17,6 @@ export class ButtonBannerComponent implements OnInit {
 
   ngOnInit() {
     console.log("button banner init: ", this.data.name);
-    console.log("banner id: ", this.id);
     this.getIsMobile();
   }
 
@@ -29,6 +28,14 @@ export class ButtonBannerComponent implements OnInit {
       this.isMobileResolution = true;
     } else {
       this.isMobileResolution = false;
+    }
+  }
+  bannerClass() {
+    console.log("banner id", this.id);
+    if (this.id === 0){
+      return "first-banner"
+    } else {
+      return "button-banner"
     }
   }
 }

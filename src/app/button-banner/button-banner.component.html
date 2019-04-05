@@ -1,5 +1,5 @@
 
-<div *ngIf="!isMobileResolution">
+<div [class]="bannerClass()" *ngIf="!isMobileResolution">
   <h1>{{data.name | uppercase}}</h1>
   <h6>{{data.sub}}</h6>
   <div class="buttons">

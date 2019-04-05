@@ -1,10 +1,9 @@
 @import '../../scss/mixins';
 
 app-button-banner {
-  margin: 1px;
+  
 }
 .imgBanners {
-  margin: 1px;
   @include tablet {
     display: flex;
     flex-direction: row;
@@ -12,14 +11,17 @@ app-button-banner {
 }
 
 .explore {
-  margin-top: 20px;
-  background-color: $lightgrey;
-  height: 25vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 2vw;
+  display: none;
+  @include tablet-large {
+    margin-top: 20px;
+    background-color: $lightgrey;
+    height: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+  }
 }
 
 .insta-pics {
