@@ -15,6 +15,7 @@ import { InstaPicsComponent } from './insta-pics/insta-pics.component';
 import { NavComponent } from './nav/nav.component';
 import { StoreComponent } from './store/store.component';
 import { NavCategoryComponent } from './nav-category/nav-category.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { NavCategoryComponent } from './nav-category/nav-category.component';
     NavComponent,
     StoreComponent,
     NavCategoryComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
