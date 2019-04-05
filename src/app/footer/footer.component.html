@@ -2,10 +2,16 @@
   <img src="../assets/Underarmour.png" alt="">
 </div>
 <div class="lower">
-  <div class="footer-link-set" *ngFor="let menu of linkMenus">
-    {{menu.title | uppercase}}
-    <div *ngFor="let link of menu.links">
-       <p>{{link}}</p>
+  <div *ngFor="let menu of linkMenus">
+    <h5>{{menu.title | uppercase}}</h5>
+    <div class="menu-div">
+      <div class="footer-link-set" *ngFor="let link of menu.links">
+        <a href="#">{{link}}</a>
+      </div>
     </div>
+  </div>
+  <div class="signup-links">
+    <h5>GET FREE SHIPPING ON YOUR NEXT ORDER</h5>
+    <p>Sign up for email updates today.</p>
   </div>
 </div>
