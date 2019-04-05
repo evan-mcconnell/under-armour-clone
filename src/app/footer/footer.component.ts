@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { footerLinks } from './footerData';
-import { FooterMenu } from '../models/footer.model';
+import { FooterMenu, FooterLinks } from '../models/footer.model';
 
 @Component({
   selector: 'app-footer',
@@ -9,9 +9,11 @@ import { FooterMenu } from '../models/footer.model';
 })
 export class FooterComponent implements OnInit {
   linkMenus: FooterMenu[] = footerLinks;
+  links: FooterLinks[] = this.linkMenus.links;
   constructor() { }
 
   ngOnInit() {
+    console.log("footer menus", this.linkMenus[0].links[0].name);
   }
 
 }

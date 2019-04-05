@@ -2,5 +2,10 @@
   <img src="../assets/Underarmour.png" alt="">
 </div>
 <div class="lower">
-
+  <div class="footer-link-set" *ngFor="let menu of linkMenus">
+    {{menu.title | uppercase}}
+    <div class="let link of menu.links">
+      {{link}}
+    </div>
+  </div>
 </div>

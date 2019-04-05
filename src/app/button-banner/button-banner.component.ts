@@ -31,7 +31,6 @@ export class ButtonBannerComponent implements OnInit {
     }
   }
   bannerClass() {
-    console.log("banner id", this.id);
     if (this.id === 0){
       return "first-banner"
     } else {
