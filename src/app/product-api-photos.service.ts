@@ -9,6 +9,6 @@ export class ProductApiPhotosService {
   constructor(private http: Http) { }
 
   getProductPhotos() {
-    return this.http.get(`https://api.unsplash.com/photos/?client_id={process.env.API_KEY}`)
+    return this.http.get(`https://api.unsplash.com/search/photos/?client_id={process.env.API_KEY}&query=shoes`)
   }
 }

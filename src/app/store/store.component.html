@@ -1,3 +1,15 @@
 <p>
   This is the store! We'll have products up shortly ...
 </p>
+
+<form>
+  <div class="form-group">
+    <label for="search">Search...</label>
+    <input type="text" #searchQuery placeholder="Search">
+  </div>
+  <button (click)="getProductPhotos(searchQuery.value)">Get Products</button>
+</form>
+
+<div *ngIf="photos">
+  <app-product [prodPhotos]="photos"></app-product>
+</div>
