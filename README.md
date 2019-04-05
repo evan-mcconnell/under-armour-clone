@@ -36,20 +36,20 @@ Below is the core plan for the project. Each box represents a component. Compone
 ### Completed Features
 
 As of March 29, 2019:
-# 9 separate components with functionality
-# A main page that displays the content of the components
-# A data file to hold the text data
-# Property binding to pass data to child components
-# Models for various sets of data
-# Some responsive layout features, including an image grid and a HostListener for listening for window resizing
+* 9 separate components with functionality
+* A main page that displays the content of the components
+* A data file to hold the text data
+* Property binding to pass data to child components
+* Models for various sets of data
+* Some responsive layout features, including an image grid and a HostListener for listening for window resizing
 
 Next Steps:
-# Multi-page functionality with an angular router
-# Moving some of the data to a firebase database
-# Nav drop down functionality (currently works to drop down, but unstyled)
-# Other elements in header
-# footer component, content and styling
-# Deployment to Firebase
+* Multi-page functionality with an angular router
+* Moving some of the data to a firebase database
+* Nav drop down functionality (currently works to drop down, but unstyled)
+* Other elements in header
+* footer component, content and styling
+* Deployment to Firebase
 
 
 ### Stretch Goals
