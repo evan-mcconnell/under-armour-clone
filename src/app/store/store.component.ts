@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
+import { Injectable } from '@angular/core';
+import { Http, Response } from '@angular/http';
 import { ProductApiPhotosService } from "../product-api-photos.service";
 
 @Component({
@@ -10,7 +12,8 @@ import { ProductApiPhotosService } from "../product-api-photos.service";
 })
 export class StoreComponent implements OnInit {
   photos: any[] = null;
-  constructor(private productPhotos: ProductApiPhotosService) { }
+  constructor(private http: Http, private productPhotos: ProductApiPhotosService) { }
+
   ngOnInit() {
     console.log("loaded store");
   }
