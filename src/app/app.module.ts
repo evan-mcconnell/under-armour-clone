@@ -14,6 +14,7 @@ import { ExploreComponent } from './explore/explore.component';
 import { InstaPicsComponent } from './insta-pics/insta-pics.component';
 import { NavComponent } from './nav/nav.component';
 import { StoreComponent } from './store/store.component';
+import { NavCategoryComponent } from './nav-category/nav-category.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { StoreComponent } from './store/store.component';
     InstaPicsComponent,
     NavComponent,
     StoreComponent,
+    NavCategoryComponent,
   ],
   imports: [
     BrowserModule,

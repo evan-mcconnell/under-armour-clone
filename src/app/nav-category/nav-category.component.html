@@ -1,0 +1,7 @@
+<!-- <div class="leftLinks">
+  <a *ngFor="let link of navData.leftLinks" href="getLeftLink()">{{link.linkName}}</a>
+</div> -->
+  <div class="categories">
+    <h5>{{dropData.categoryTitle | uppercase}}</h5>
+    <a *ngFor="let subcategory of category.subCategories" href="#">{{dropData.subcategory.subTitle}}</a>
+  </div>

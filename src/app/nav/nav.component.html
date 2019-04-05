@@ -1,15 +1,13 @@
 
 <div class="nav-container">
-  <h3 (mouseenter)="mouseHovering()" (mouseleave)="mouseLeft()">{{navData.title}}</h3>
+  <h3 (mouseenter)="mouseHovering()">{{navData.title}}</h3>
   <div class="drop-down" *ngIf="isHovering">
-    <div class="leftLinks">
-      <a *ngFor="let link of navData.leftLinks" href="getLeftLink()">{{link.linkName}}</a>
+    <div *ngFor="let category of navData.categories">
+      {{catagory.categoryTitle}}
     </div>
-    <div class="mainLinks" *ngFor="let category of navData.categories">
-      <div class="categories">
-        <h5>{{category.categoryTitle | uppercase}}</h5>
-        <a *ngFor="let subcategory of category.subCategories" href="#">{{subcategory.subTitle}}</a>
-      </div>
-    </div>
+    <!-- <app-nav-category *ngFor="let category of navData.categories" [dropData]="catagory"></app-nav-category> -->
   </div>
 </div>
+
+
+<!-- (mouseleave)="mouseLeft()" -->
