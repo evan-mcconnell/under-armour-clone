@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { routing } from './app.routing';
+import { HttpModule } from '@angular/http';
 
 
 import { AppComponent } from './app.component';
@@ -16,6 +17,7 @@ import { NavComponent } from './nav/nav.component';
 import { StoreComponent } from './store/store.component';
 import { NavCategoryComponent } from './nav-category/nav-category.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProductComponent } from './product/product.component';
 
 
 @NgModule({
@@ -33,10 +35,12 @@ import { FooterComponent } from './footer/footer.component';
     StoreComponent,
     NavCategoryComponent,
     FooterComponent,
+    ProductComponent,
   ],
   imports: [
     BrowserModule,
-    routing
+    routing,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
