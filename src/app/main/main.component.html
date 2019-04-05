@@ -1,10 +1,12 @@
 <app-splash-banner [topBannerData]="buttonBanners[0]"></app-splash-banner>
 
-<app-button-banner *ngFor="let buttonbanner of buttonBanners;  let i = index" [data]="buttonbanner" [id]="i"></app-button-banner>
+<app-button-banner *ngFor="let buttonbanner of buttonBanners | slice: 0:2;  let i = index" [data]="buttonbanner" [id]="i"></app-button-banner>
 
 <div class="imgBanners">
   <app-image-banner *ngFor="let imgbanner of imgBanners" [imgData]="imgbanner"></app-image-banner>
 </div>
+
+<app-button-banner *ngFor="let buttonbanner of buttonBanners | slice: 2" [data]="buttonbanner" [id]="i"></app-button-banner>
 
 <div class="explore">
   <app-explore *ngFor="let explore of explores" [exploreData]="explore"></app-explore>

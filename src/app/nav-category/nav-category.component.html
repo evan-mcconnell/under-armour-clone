@@ -3,5 +3,5 @@
 </div> -->
   <div class="categories">
     <h5>{{dropData.categoryTitle | uppercase}}</h5>
-    <a *ngFor="let subcategory of category.subCategories" href="#">{{dropData.subcategory.subTitle}}</a>
+    <a *ngFor="let subcategory of dropData.subCategories" href="#">{{subcategory.subTitle}}</a>
   </div>
