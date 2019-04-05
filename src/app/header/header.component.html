@@ -1,5 +1,18 @@
-<p>SOME FREE SHIPPING INFORMATION STUFF UP HERE!</p>
 
-<div class="nav">
-  <app-nav *ngFor="let nav of navDrops; let i = index" [navData]="nav" [id]="i"></app-nav>
+
+
+<div class="header-top">
+  <p>FREE Returns & FREE U.S. Standard Shipping Orders $60+</p>
+  <div class="header-top-links">
+    <a href="#">Chat</a>
+    <img src="https://img.icons8.com/color/48/000000/usa.png">
+    <a href="#">US ▼</a>
+    <a href="#">Stores</a>
+    <a href="#">Login</a>
+  </div>
+</div>
+<div class="header-bottom">
+  <div class="nav">
+    <app-nav *ngFor="let nav of navDrops; let i = index" [navData]="nav" [id]="i"></app-nav>
+  </div>
 </div>
