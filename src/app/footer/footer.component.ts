@@ -8,8 +8,8 @@ import { FooterMenu, FooterLinks } from '../models/footer.model';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
-  linkMenus: FooterMenu[] = footerLinks;
-  links: FooterLinks[] = this.linkMenus.links;
+  linkMenus: FooterMenu = footerLinks;
+  // links: FooterLinks[] = this.linkMenus.links;
   constructor() { }
 
   ngOnInit() {

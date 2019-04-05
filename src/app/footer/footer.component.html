@@ -3,9 +3,9 @@
 </div>
 <div class="lower">
   <div class="footer-link-set" *ngFor="let menu of linkMenus">
-    {{menu.title | uppercase}}
+    {{menu.title | uppercase}} {{menu.links.name}}
     <div class="let link of menu.links">
-      {{link}}
+      some text
     </div>
   </div>
 </div>
