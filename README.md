@@ -1,8 +1,8 @@
-# UnderArmorClone
+# UnderArmourClone
 
 #### Angular project for Epicodus
 
-_Published_ **March 29 2019** <br>
+_Published_ **April 5, 2019** <br>
 _Author_ **Kim McConnell**
 
 1. [Description](#description)
@@ -17,10 +17,10 @@ _Author_ **Kim McConnell**
 1. [License](#license)
 
 ### Description
-A clone of the Under Armor website using the Angular framework and sass for styling.
+A clone of the Under Armour website using the Angular framework and sass for styling.
 
 ### Learning Objective
-To practice using Angular and to get used to using components to plan and style a UI.
+To practice using the Angular framework with components to style a clone site. To use routing to navigate to different pages.
 
 
 ### Product Requirements
@@ -43,24 +43,26 @@ As of March 29, 2019:
 * Models for various sets of data
 * Some responsive layout features, including an image grid and a HostListener for listening for window resizing
 
-Next Steps:
-* Multi-page functionality with an angular router
+As of April 5, 2019:
+* Multi-page functionality with an angular router (one route)
 * Moving some of the data to a firebase database
-* Nav drop down functionality (currently works to drop down, but unstyled)
-* Other elements in header
-* footer component, content and styling
-* Deployment to Firebase
+* Use a product API to get placeholder data for products
+* Header styled with most elements from original site. (Partially responsive)
+* Footer component, content and styling. (Partially responsive)
+* Nav drop down functionality (partially styled but incomplete)
+* Use a product API to get placeholder data for products
 
 
 ### Stretch Goals
-* Add multi-page functionality
-* Use a product API to get placeholder data for products
+* Deployment to Firebase
+* Moving some of the data to a firebase database
 
 
 ### Installation
 * Clone from https://github.com/kimmcconnell/under-armor-clone.git either directly from GitHub or running `git clone https://github.com/kimmcconnell/under-armor-clone.git` in your terminal
 * Run `$ npm install` in your terminal after navigating to the under-armor-clone directory
 * If you do not have the angular CLI package already installed on your computer, run `npm install -g @angular/cli@1.6.5`
+* FOR PRODUCTS PAGE TO WORK you will need an API key. 
 * Run `ng serve --open` to open the project in a browser window
 
 
